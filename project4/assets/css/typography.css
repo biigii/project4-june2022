@@ -1,0 +1,68 @@
+/* id 0- class 0- type 0 */
+
+/* id selector 1-0-0 */
+#heading {
+    /* color: purple; */
+}
+
+/* class selector  0-1-0*/
+.heading {
+    color: red;
+}
+
+/* type selector  0-0-1*/
+h1 {
+    color: blue;
+    color: orange;
+}
+
+.content h2 {
+    color: lightgray;
+}
+
+.content p {
+    color: green;
+}
+
+/* .para {
+  color: green;
+} */
+
+
+/* 0 - 0 - 1 */
+h3 {
+  color: green;
+}
+
+/* 0 - 1 - 1 */
+h3.sub-heading {
+    color: orange;
+}
+
+/* 0 - 1 -0 */
+.sub-heading {
+  color: red;
+}
+
+/* 0-2-1 */
+p.text.text-info {
+  color: red
+}
+
+/* 0-2-1 */
+.content p.para {
+  color: gold;
+}
+
+/* 0-1-1 */
+.homepage h1 {
+  color: green;
+}
+
+.about h1 {
+  color: tomato;
+}
+
+.contact h1 {
+  color: black;
+}
