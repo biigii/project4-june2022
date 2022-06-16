@@ -1,0 +1,66 @@
+h1 {
+  font-size: 100px;
+  background-color: #ffd700;
+  /* display: block; */
+  width: 100%;
+}
+
+/* :root */
+/* html {
+  font-size: 16px;
+} */
+
+.container {
+  background-color: #0000ff;
+  color: rgb(255,0,0);
+  /* a pixel is 1/96 of an inch */
+  /* width: 700px; */
+  /* height: 400px; */
+  /* font-size: 16px; */
+  /* display: block; */
+  width: 50%;
+}
+
+/* main {
+  width: 50%;
+  background-color: #00ff00;
+} */
+
+.box {
+  width: 50%;
+  height: 300px;
+  background-color: hsl(120, 50%, 50%);
+}
+
+.child {
+  width: 75%;
+  height: 20%;
+  background-color: hsl(190, 45%, 15%);
+}
+
+/* em and rem */
+
+main {
+  font-size: 10px;
+}
+
+.wrapper {
+  background-color: rgb(120, 120,120);
+  /* 500px     */
+  width: 25em; 
+  height: 500px;
+  /* font-size: 15px; */
+}
+
+.text {
+  background-color: hsl(90, 100%, 40%);
+  height: 200px;
+  /* font-size: 10px; */
+  /* 20 * 10 = 200px */
+  /* 20 * 15px = 300px - coming from parent element - .wrapper*/
+  /*  if no parent has font-size then we get value from html element which has a font-size of 16px by default  */
+  /* width: 20em; */
+  /* width: 200px; */
+  width: 20em;
+  /* width: 10rem */
+}
